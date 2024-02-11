@@ -1,2 +1,2 @@
 # top-js
-JavaScript codes of The Odin Project
+JavaScript codes from "The Odin Project"
