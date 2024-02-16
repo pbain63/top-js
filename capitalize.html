@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let string = prompt(
+        `Input any kind of letters; first letter will be 'Capital'.`
+      );
+      function capitalize() {
+        let result = string[0].toUpperCase() + string.slice(1);
+
+        alert(`The output is: ${result}`);
+        return result;
+      }
+      capitalize();
+    </script>
+  </body>
+</html>
